@@ -1,0 +1,54 @@
+Microsoft Windows [Version 10.0.19045.3803]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Patil>cd Java Projects
+
+C:\Users\Patil\Java Projects>cd Real-time Chat Application
+
+C:\Users\Patil\Java Projects\Real-time Chat Application>npm init
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (real-time-chat-application)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Patil\Java Projects\Real-time Chat Application\package.json:
+
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+Is this OK? (yes) yes
+
+
+C:\Users\Patil\Java Projects\Real-time Chat Application>npm install socket.io
+
+added 22 packages, and audited 23 packages in 7s
+
+found 0 vulnerabilities
+
+C:\Users\Patil\Java Projects\Real-time Chat Application>node index.js
+Server is listening on port ${port}
